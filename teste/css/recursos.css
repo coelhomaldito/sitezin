@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: green;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.circulos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.crlc{
+    width: 15rem;
+    height: 15rem;
+}
+
+.quadrados{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.elementos{
+    width: 20rem;
+    height: 8rem;
+    border: 2px solid #ffff;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.lista{
+    list-style-type: none;
+}

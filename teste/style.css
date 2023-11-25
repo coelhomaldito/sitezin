@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(90deg, black, rgb(94, 94, 94));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 10vh;
+    box-shadow: 0px 3px 20px rgb(128, 0, 255);
+}
+
+.logo{
+    color: #ffff;
+    font-size: 3rem;
+}
+
+span{
+    color: rgb(128, 0, 255);
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul li :hover{
+    color: rgb(128, 0, 255);
+    transition: 0.2s;
+}
+
+.botao{
+    height: 70%;
+    width: 10%;
+    border-radius: 2rem;
+    border: 3px solid rgb(212, 0, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 1px 5px 50px rgb(212, 0, 255);
+}
+
+.botao:hover{
+    cursor: pointer;
+    background-color: rgb(212, 0, 255);
+    border: 3px solid #ffff;
+    color: #ffff;
+    transition: 0.2s;
+}
+
+.containers{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 5rem;
+}
+
+.titulo{
+    color: #ffff;
+    font-size: 2.5rem;
+}
+
+.imagem{
+    width: 10rem;
+    height: 10rem;
+}
+
+.texto{
+    color: #ffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.saiba_mais{
+    width: 90%;
+    height: 4rem;
+    border-radius: 2.5rem;
+    background-color: rgb(212, 0, 255);
+    color: #ffff;
+    border: 1.5px solid #ffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: 1px 5px 50px rgb(212, 0, 255);
+}
+
+.saiba_mais:hover{
+    cursor: pointer;
+    background-color: #ffff;
+    border: 3px solid rgb(212, 0, 255);
+    color: rgb(212, 0, 255);
+    box-shadow: 1px 1px 50px rgb(212, 0, 255);
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carro{
+    width: 50rem;
+}

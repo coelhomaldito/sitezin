@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+}
+
+.tit{
+    height: 8rem;
+    display: flex;
+    align-items: flex-end;
+}
+.titulo{
+    color: #ffff;
+}
+
+.container{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+}
+
+.cards{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    border: 2px solid #ffff;
+}
+
+.img_card{
+    width: 15rem;
+    height: 15rem;
+}
+
+.texto{
+    height: 5rem;
+    background-color: #ffff;
+    text-align: center;
+}
+
+.card_carro{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.carro{
+
+}
